@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="myNav">
+        <div class="navbar navbar-expand-lg py-4 m-auto w-75">
+            <div class="container-fluid">
+                <a class="navbar-brand link-light fs-5 fw-bolder" href="#">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="fa fa-cloud w-50 text-info fa-2xl"></i>
+                        <div class="w-50">
+                            <h4 class="fw-bold fs-6">Weather</h4>
+                            <p class="fw-light fs-6">Tagline goes here</p>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler navbar-toggler1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-2 LinkFocus1 rounded-pill px-3 py-0 mb-2">
+                            <a class="nav-link rounded-pill" href="#">Home</a>
+                        </li>
+                        <li class="nav-item LinkFocus me-2 rounded-pill px-3 py-0 mb-2">
+                            <a class="nav-link rounded-pill" href="#">News</a>
+                        </li>
+                        <li class="nav-item LinkFocus me-2 rounded-pill px-3 py-0 mb-2">
+                            <a class="nav-link rounded-pill" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item LinkFocus me-2 rounded-pill px-3 py-0 mb-2">
+                            <a class="nav-link active rounded-pill" aria-current="page" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item LinkFocus me-2 rounded-pill px-3 py-0 mb-2">
+                            <a class="nav-link rounded-pill" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="myContent overflow-visible">
+            <div class="container pt-5 mb-5">
+                <form class="input-group pt-5 px-5 w-100 ">
+                    <input type="text" id="searsh" class="form-control bg-dark border-0 rounded rounded-start-5 text-secondary" placeholder="Find Your Location...." aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-info text-light rounded rounded-end-5" type="button" id="button-addon2">Find</button>
+                </form>
+            </div>
+            <div class="container">
+                <div class="row p-1 px-5 bg-transparent">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-0 text-light" id="thisDay">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 p-0 d-flex flex-wrap text-light" id="forecast">
+                    </div>
+                </div>
+            </div>
+            <footer class="py-5 w-100 mt-5">
+                <div class="container">
+                    <div class="row px-5">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                            <form class="input-group mb-5 w-100 ">
+                                <input type="text" id="subscribe" class="form-control bg-dark border-0 text-secondary" placeholder="Enter your email to subscribe..." aria-label="Recipient's username" aria-describedby="button-addon3">
+                                <button class="btn btn-info text-light" type="button" id="button-addon3">Subscribe</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                            <ul class="d-flex ps-0 justify-content-start align-items-center">
+                                <li class="social-links p-2 d-flex justify-content-center align-items-center me-1"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="social-links p-2 d-flex justify-content-center align-items-center me-1"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="social-links p-2 d-flex justify-content-center align-items-center me-1"><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
+                                <li class="social-links p-2 d-flex justify-content-center align-items-center me-1"><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <p class=" text-light ps-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+            </footer>
+        </div>
+
+
+    </section>
+
+
+    
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
